@@ -1,0 +1,14 @@
+{application, 'aegle',
+ [{description, "aegle: 9P2000 in LFE"},
+  {vsn, git},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["ISC"]},
+  {links, []}
+ ]}.
